@@ -63,10 +63,10 @@
 				<%@ include file="listProducts.jsp"%>
 			</c:if>
 		</div>
+
 		<!-- Footer -->
 		<%@ include file="./shared/footer.jsp"%>
 		<!-- /.container -->
-
 
 		<!-- Bootstrap core JavaScript -->
 		<script src="${js}/jquery.js"></script>
@@ -75,6 +75,5 @@
 		<!-- Self Coded javaScript-->
 		<script src="${js}/myapp.js"></script>
 	</div>
-</body>
-
+  </body>
 </html>

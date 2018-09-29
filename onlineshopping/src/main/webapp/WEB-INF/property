@@ -1,0 +1,3 @@
+driver class: org.h2.Driver
+jdbc url:     jdbc:h2:tcp://localhost/~/onlineshopping
+user name: sa
