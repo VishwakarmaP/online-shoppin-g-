@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class HibernateConfig {
 
-	//chang the below based on the DBMS you choose
+	//change the below based on the DBMS you choose
 	private final static String DATABASE_URL="jdbc:h2:tcp://localhost/~/onlineshopping";
 	private final static String DATABASE_DRIVER="org.h2.Driver";
 	private final static String DATABASE_DIALECT="org.hibernate.dialect.H2Dialect";
@@ -67,7 +67,7 @@ public class HibernateConfig {
 	@Bean
 	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory) {
 		HibernateTransactionManager transactionManager = new HibernateTransactionManager(sessionFactory);
-		return transactionManager();
+		return transactionManager;
 		
 	}
 
